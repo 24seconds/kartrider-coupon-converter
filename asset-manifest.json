@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kartrider-coupon-converter/static/css/main.90f84ebf.chunk.css",
+    "main.js": "/kartrider-coupon-converter/static/js/main.2eb8d9f1.chunk.js",
+    "main.js.map": "/kartrider-coupon-converter/static/js/main.2eb8d9f1.chunk.js.map",
+    "runtime~main.js": "/kartrider-coupon-converter/static/js/runtime~main.690deaf8.js",
+    "runtime~main.js.map": "/kartrider-coupon-converter/static/js/runtime~main.690deaf8.js.map",
+    "static/js/2.4ffe02b4.chunk.js": "/kartrider-coupon-converter/static/js/2.4ffe02b4.chunk.js",
+    "static/js/2.4ffe02b4.chunk.js.map": "/kartrider-coupon-converter/static/js/2.4ffe02b4.chunk.js.map",
+    "index.html": "/kartrider-coupon-converter/index.html",
+    "precache-manifest.d2a76a772759ffabc98e8805047e86f1.js": "/kartrider-coupon-converter/precache-manifest.d2a76a772759ffabc98e8805047e86f1.js",
+    "service-worker.js": "/kartrider-coupon-converter/service-worker.js",
+    "static/css/main.90f84ebf.chunk.css.map": "/kartrider-coupon-converter/static/css/main.90f84ebf.chunk.css.map"
+  }
+}
