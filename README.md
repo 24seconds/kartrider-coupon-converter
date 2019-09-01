@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 쿠폰을 홈페이지에서 복사하고 카트라이더에 붙여넣기가 안되는 것을 확인 -> '-'를 다 빼고 넣으니 잘 작동 -> 그래서 '-'를 다 빼주는 UI 만듬
 
 ## 쿠폰 변환기 주소
-[http://24seconds.github.io/kartridercouponconverter](http://24seconds.github.io/kartridercouponconverter)
+[https://24seconds.github.io/kartrider-coupon-converter/](https://24seconds.github.io/kartrider-coupon-converter/)
 
 사용법
 ```
