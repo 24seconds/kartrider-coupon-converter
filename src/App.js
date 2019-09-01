@@ -30,23 +30,28 @@ class App extends Component {
 
   async onPaste() {
     const value = await this.readText();
-    console.log('text is ', value);
+    const convertedValue = value.replace(/-/g, '');
+    this.onCopy(convertedValue);
+    this.showSnackbar();
 
     this.onChange({ target: { value } });
   }
 
-  onCopy() {
-    const { convertedValue } = this.state;
-    navigator.clipboard.writeText(convertedValue);
+  onCopy(text) {
+    navigator.clipboard.writeText(text);
   }
 
   componentDidMount() {
     this.nameInput.focus();
   }
 
-  showSnackbar() {
-    this.onCopy();
+  onCopyButtonClick() {
+    const { convertedValue } = this.state;
+    this.onCopy(convertedValue);
+    this.showSnackbar();
+  }
 
+  showSnackbar() {
     this.setState({
       snackbarClassname: 'show',
     });
@@ -79,10 +84,10 @@ class App extends Component {
             type="text"
             value={ convertedValue }
             readOnly={ true } />
-          <button onClick={ this.showSnackbar.bind(this) }>복사하기</button>
+          <button onClick={ this.onCopyButtonClick.bind(this) }>복사하기</button>
         </div>
         <div id="snackbar" className={ snackbarClassname }>
-          클립보드로 복사완료!
+          클립보드로 변환된 쿠폰코드 복사완료!
         </div>
       </div>
     );
