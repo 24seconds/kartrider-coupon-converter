@@ -1,5 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## 카트라이더 쿠폰 변환기
+쿠폰을 홈페이지에서 복사하고 카트라이더에 붙여넣기가 안되는 것을 확인 -> '-'를 다 빼고 넣으니 잘 작동 -> 그래서 '-'를 다 빼주는 UI 만듬
+
+## 쿠폰 변환기 주소
+[http://24seconds.github.io/kartridercouponconverter](http://24seconds.github.io/kartridercouponconverter)
+
+사용법
+```
+1. 카트라이더 홈페이지에서 쿠폰 복사
+2. 붙여넣기 클릭. 이때 자동으로 변환된 쿠폰코드가 클립보드에 복사됨
+3. 카트라이더 상점에 쿠폰입력에서 붙여넣기
+```
+
+<img src="https://imgur.com/FsPZpBR.png" width=400/>
+
 ## Available Scripts
 
 In the project directory, you can run:
